@@ -1,3 +1,6 @@
+# Please open the attached [Jupyter Notebook](similarity_search_duckdb.ipynb) in Google Colab and run it step by step.
+
+
 # Install dependencies
 
 ``` python
