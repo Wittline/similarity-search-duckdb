@@ -12,8 +12,7 @@ class similaritySearch:
         self.con = duckdb.connect(database_name)
         self.__create_vector_storage()
 
-    def __execute_commit(self, statement):
-        print(statement)
+    def __execute_commit(self, statement):        
         self.con.execute(statement)
         self.con.commit()        
 
